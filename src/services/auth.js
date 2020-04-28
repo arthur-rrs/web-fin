@@ -15,5 +15,8 @@ export default {
     const data = response.data;
     localStorage.setItem(SESSION_ID, 'Bearer ' + data.token);
     return response;
+  },
+  'logout': function() {
+    localStorage.clear();
   }
 }

@@ -46,7 +46,7 @@
         </form>
         <hr/>
         <div class="alert alert-success" v-if="hasSave">
-          <p>O Usuário foi salvo com sucesso.</p>
+          <p>O Usuário foi salvo com sucesso. Volte para fazer o login.</p>
         </div>
       </div>
     </div>

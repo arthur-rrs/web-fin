@@ -23,9 +23,20 @@
           </ul>
         </div>
         <span class="navbar-text">Organize sua vida financeira!</span>
+        <a @click="logout()">Sair</a>
       </div>
     </nav>
   </div>
 </template>
-<style>
-</style>
+<script>
+import auth from '../services/auth'
+
+export default {
+  methods: {
+    logout: function () {
+      auth.logout();
+      this.$router.push({ "name": "Login" })
+    }
+  }
+}
+</script>
