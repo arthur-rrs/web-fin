@@ -23,7 +23,7 @@
           </ul>
         </div>
         <span class="navbar-text">Organize sua vida financeira!</span>
-        <a @click="logout()">Sair</a>
+        <a class="mr-1 btn btn-outline-ligth" @click="logout()">Sair</a>
       </div>
     </nav>
   </div>
