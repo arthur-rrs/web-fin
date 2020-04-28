@@ -22,7 +22,7 @@
             </li>
           </ul>
         </div>
-        <span class="navbar-text">Navbar text with an inline element</span>
+        <span class="navbar-text">Organize sua vida financeira!</span>
       </div>
     </nav>
   </div>

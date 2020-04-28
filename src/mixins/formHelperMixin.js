@@ -19,6 +19,10 @@ export default {
         this.haserrors['auth'] = true;
         this.haserrors['auth'] = 'email ou senha estão incorretos!';
       }
+      if (401 == status) {
+        localStorage.clear();
+        this.$router.push({ "name": "Login" })
+      }
     },
     clearErrors: function () {
       for (const key in this.haserrors) {
